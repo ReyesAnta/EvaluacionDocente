@@ -1,0 +1,115 @@
+/*dropzone*/
+.dropzone-wrapper {
+  border: 1px dashed #c1c1c1;
+  color: #9c9c9c;
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+.dropzone-wrapper input{
+  height: 100% !important;
+}
+.dropzone-desc {
+  position: absolute;
+  left: 50%;
+  right: 0;
+  text-align: center;
+  width: 95%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 14px;
+}
+.dropzone-desc p{
+  margin-top: 5px;
+  font-size: 13px;
+}
+.uk-form-custom span{
+  color: #9c9c9c;
+  font-size: 13px;
+}
+.dropzone,
+.dropzone:focus {
+  position: absolute;
+  outline: none !important;
+  width: 100%;
+  height: 150px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.dropzone-wrapper:hover,
+.dropzone-wrapper.dragover{
+  background: #ecf0f5;
+}
+
+.preview-zone{
+  text-align: center;
+}
+
+.box-header.with-border{
+  border-bottom: unset;
+}
+.box{
+  box-shadow: unset;
+}
+.remove-preview i{
+  padding-right: 5px;
+}
+.box.box-solid>.box-header .btn:hover, .box.box-solid>.box-header a:hover{
+  background: #ce5259;
+  border-color: #ce5259;
+}
+.box-tools .btn-danger{
+  background: #ef4d56 !important;
+  color: #fff !important;
+  padding: 4px 10px !important;
+  border: 1px solid #ef4d56 !important;  
+  outline: none;
+}
+.box-header>.box-tools{
+  position: unset;
+
+}
+.producto .img-dropzone {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+.list-files{
+  display: flex;
+  justify-content: space-between;
+}
+.list-files span{
+  font-size: 12px;
+}
+/*Fin dropzone*/
+.breadcrumb-item+.breadcrumb-item:before {
+  float: left;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: ">";
+  font-weight: 600;
+  font-size: 13px;
+}
+.card-header-pills {
+  margin-left: 0;
+}
+.estrellas{
+  text-align: end;
+}
+.estrellas>i{
+  color: #999;
+  font-size: 30px;
+}
+.estrellas-table>i{
+  color: #999;
+  font-size: 10px;
+  padding: 0 1px;
+}
+.estrellas>i.orange,
+.estrellas-table>i.orange{
+  color: orange !important;
+}
+.dropdown .list-group .list-group-item.opacity {
+    background: #efefef;
+}
